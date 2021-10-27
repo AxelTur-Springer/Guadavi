@@ -1,48 +1,56 @@
+
 *{box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(212, 203, 203);
 }
-.row::after {
-    content: "";
-    clear: both;
-    display: block;
-  }
   .header-nav-img{
       background-image: url(/assets/Guadavi.jpg);
       background-repeat: repeat;
       height: 600px;
-      
   }
-  
+ p, h1, h2, h3, h4, button {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+ }
   .header h1{
-      padding-top: 1%;
+      padding-top: 0.5%;
     text-align: center;
     background:linear-gradient( rgb(87, 85, 85) , rgba(0, 0, 255, 0) 100%);
-    color: rgb(223, 223, 223);
-    
+    color: rgb(255, 255, 255);
+    position: sticky; top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
   }
+  /* Start Nav Code*/
   .nav-bar{
-      background-color: white;
-    
+      background-color: rgba(255, 255, 255, 0.568);
       margin-top: 10px;
       justify-content: center;
       padding: 0.5%;
       display: flex;
-      border: rgba(255, 255, 255, 0.301) 5px solid;
-
+      border: rgb(255, 255, 255) 5px solid;
+      position: sticky;top: 0px;
   }
   .nav-bar button{
     
       border: none ;
       color: black;
       font-size: 20px;
-      font-weight: 200;
+      font-weight: 400;
       background: rgba(255, 255, 255, 0);
       padding: 0% 5%;
   }
+  /* end Nav Code*/
+
+           /* Start Grid Code For Introduction Gallery*/
+.grid-title{
+text-align: center;
+padding-top: 1em;
+color: rgb(0, 0, 0);
+font-size: 3em;
+}
  .grid-gallery{
      margin-top: 50px;
      background-color: rgb(255, 255, 255);
@@ -69,7 +77,7 @@ body{
     width: 100%;
  }
 
-
+       /* end Grid Code For Introduction Gallery*/
 
 
 
