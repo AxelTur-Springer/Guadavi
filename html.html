@@ -15,7 +15,7 @@
 </head>
 <body>
     <!-- start header nav-->
-    <div class="header-nav-img">
+    <div class="header-nav-img" id="page-top">
       <div class="header">
         <h1>Guadavi</h1>
       </div>
@@ -24,7 +24,24 @@
               <button class="pc-button">Swing</button>
               <button class="pc-button">Info</button>
               <button class="pc-button" >Como Comprar</button>
-              <button class="menu-phone"> menu</button>
+            <div class="phonedrop">
+                <div class="menu-button">
+                  <button class=> </button>
+                </div>
+                <div class="drop-items">
+                  <ul class="menu">
+                    <li>
+                        <button><img src="/assets/icons8-menu.svg" alt=""></button>
+                        <ul class="submenu">
+                            <li><button>New</button></li>
+                            <li><button>Swing</button></li>
+                            <li><button>Info</button></li>
+                            <li><button>Como Comprar</button></li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+            </div>
             </div>
            
              <div class="between">
@@ -33,7 +50,9 @@
     </div>
   
     <!-- end header nav  -->
-    <h2 class="grid-title"> The-Real-Look</h2>
+      <div class="grid-title" >
+        <h2> The-Real-Look</h2>
+       </div>
         <div class="main-content">
           <div class="grid-gallery">
               <div class="column1">
@@ -49,12 +68,43 @@
               </div> 
           </div>
         </div>
-    
-
-      <div class="footer">
-        <p>Resize the browser window to see how the content respond to the resizing.</p>
+      <!--  Inicio form   -->
+        <div class="whole-form col col-12">
+          <div class="form-body">
+            <form>
+              <H2>Mandanos un mensaje y contactanos</H2>
+              <div> 
+                <label for="fname">Nombre:</label> 
+                <input type="text" id="fname" name="fname">
+              </div>
+              <div> 
+                <label for="lname">Apellido:</label>
+                <input type="text" id="lname" name="lname">
+              </div>
+              <div> 
+                <label for="email">Su Correo:</label>
+                <input type="email" id="email">
+              </div>
+              <div class="consulta">          
+                <label for="Consulta "></label>
+                <input type="text" id="Consulta" placeholder="Escriba su Consulta aqui">             
+              </div>
+              <div class="submit">
+                <button>Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+          <!--  End form   -->
+      <div class="footer col-12">
+        <h2>Guadavi Online Shop</h2>
+        <Button><a href=""><img src="/assets/icons8-whatsapp.svg" alt=""></a></Button>
+        <Button><a href=""><img src="/assets/icons8-instagram.svg" alt=""></a></Button>
+        <Button><a href="#page-top"><img src="" alt="">Top Of Page</a></Button>
+        <p> Made By Axel Tur Springer</p>
+        
       </div>
-    
+     
 
 
 
