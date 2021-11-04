@@ -182,18 +182,35 @@ box-shadow: 4px 3px 5px 1px rgba(68, 68, 68, 0.253);
     color: rgb(0, 0, 0);
     padding: 10px 40px;
     margin: auto;
+}
+
+ .submit button:hover{
+     cursor: pointer;
     animation: button 1s linear infinite;
-}
+    border: solid 2px rgba(0, 0, 0, 0.007);
 
-.submit button:hover{
-top: 5px;
-box-shadow:0px 5px 1px black ;
+ }
+@keyframes button{
+    0% { box-shadow: -1.5px 1.5px 2px  #ffcdb2;}
+    25% {box-shadow: 1.5px 1.5px 2px  #ffb4a2;}
+    50% {box-shadow: 1.5px -1.5px 2px  #e5989b;}
+    75% {box-shadow: -1.5px -1.5px 2px  #ffb4a2;}
+    100% {box-shadow: -1.5px 1.5px 2px  #ffcdb2;}
+}
+.submit button:active{
+box-shadow: 3px 2px 1px 1px rgba(0, 0, 0, 0.24);
+border: solid #fec5bb 2px;
 cursor: pointer;
+animation: jajaja 1s linear infinite;
+transform: scale(0.95);
 }
-@keyframes button {
-   
+@keyframes jajaja{
+    0% { box-shadow: -1px 1px 1px  #ffcdb2;}
+    25% {box-shadow: 1px 1px 1px  #ffb4a2;}
+    50% {box-shadow: 1px -1px 1px  #e5989b;}
+    75% {box-shadow: -1px -1px 1px  #ffb4a2;}
+    100% {box-shadow: -1px 1px 1px  #ffcdb2;}
 }
-
 
  /* END Seccion form */
 .footer {
