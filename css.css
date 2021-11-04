@@ -155,16 +155,21 @@ margin: auto;
      margin: auto;
      border-radius: 10px;
      padding: 3em 15% ;    
+     box-shadow:10px 10px 15px 5px #9b9b9b;
  }
 
 .consulta input{
     height: 250px;
 width: 100%;
+border: solid #b6b6b6 3px;
+box-shadow: 4px 3px 5px 1px rgba(68, 68, 68, 0.253);
+
 }
 
 .form-body .submit{
     padding-top: 25px;
     display: flex;
+  
 }
 
 .submit button{
@@ -197,6 +202,7 @@ cursor: pointer;
     background-color: black;
     color: white;
   padding: 2em 0em;
+
 }
 .footer a {
     color: white;
