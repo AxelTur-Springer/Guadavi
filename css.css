@@ -70,7 +70,7 @@ overflow:hidden;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     position:relative;
-    animation: Title 10s infinite ease-in-out;
+    animation: Title 5s linear infinite;
   
 }
 
@@ -294,12 +294,11 @@ cursor: pointer;
        display: none; 
     }
     @keyframes Title {
-        0% {left: -600px;    
-             }
-        50% { left: 600px ;
-             }
-        100% {left: -600px; }
+        0% {left: -1200px;    
         }
+   100% { left: 1500px ;
+        }
+            
 .consulta {
  
  float: right;
